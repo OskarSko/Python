@@ -6,6 +6,17 @@ seaborn 0.11.2
 openpyxl 3.0.9
 Pillow 9.0.1
 
+cycler==0.11.0
+et-xmlfile==1.1.0
+fonttools==4.29.1
+kiwisolver==1.3.2
+packaging==21.3
+pyparsing==3.0.7
+python-dateutil==2.8.2
+pytz==2021.3
+scipy==1.7.3
+six==1.16.0
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -615,3 +626,6 @@ plt.show()
 
 # Dodaje siatke (grid)
 plt.grid(True)
+
+df = pd.read_csv('dane.csv', header=0, sep=";",decimal=',')
+xlsx = pd.ExcelFile('imiona.xlsx')

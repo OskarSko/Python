@@ -613,4 +613,5 @@ plot.legend(title='Populacja na kontynentach')
 plot.set(title='Wykres slupkowy')
 plt.show()
 
-
+# Dodaje siatke (grid)
+plt.grid(True)
